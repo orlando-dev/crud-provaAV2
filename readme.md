@@ -1,7 +1,7 @@
 # CRUD com PHP para prova Estácio Fic - AV2 | MySQL
 
 ## Banco de dados
-Banco de dados criado para realizar o CRUD, tabela se chama `estacio`:
+Banco de dados criado para realizar o CRUD, banco se chama `estacio` e a tabela `alunos`:
 ```sql
 -- Criando banco de dados `estacio`
 create database estacio;
@@ -11,7 +11,7 @@ use estacio;
 
 -- Criando a tabela `alunos`
 create table alunos (
-	id int not null primary key auto_increment,
+	  id int not null primary key auto_increment,
     nome varchar(100) not null,
     email varchar(100) not null
 );
